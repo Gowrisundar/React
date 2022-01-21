@@ -1,0 +1,196 @@
+Microsoft Windows [Version 10.0.19042.746]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator>cd \
+
+C:\>node --version
+v16.13.1
+
+C:\>npm --version
+8.1.2
+
+C:\>npm install -g create-react-app
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+added 67 packages, and audited 68 packages in 5s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+2 high severity vulnerabilities
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+npm notice
+npm notice New minor version of npm available! 8.1.2 -> 8.3.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.3.1
+npm notice Run npm install -g npm@8.3.1 to update!
+npm notice
+
+C:\>where create-react-app
+C:\Users\Administrator\AppData\Roaming\npm\create-react-app
+C:\Users\Administrator\AppData\Roaming\npm\create-react-app.cmd
+
+C:\>create-react-app --version
+5.0.0
+
+C:\>create-react-app react-app
+
+Creating a new React app in C:\react-app.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1353 packages in 46s
+
+166 packages are looking for funding
+  run `npm fund` for details
+Git repo not initialized Error: Command failed: git --version
+    at checkExecSyncError (node:child_process:826:11)
+    at execSync (node:child_process:900:15)
+    at tryGitInit (C:\react-app\node_modules\react-scripts\scripts\init.js:46:5)
+    at module.exports (C:\react-app\node_modules\react-scripts\scripts\init.js:276:7)
+    at [eval]:3:14
+    at Script.runInThisContext (node:vm:129:12)
+    at Object.runInThisContext (node:vm:305:38)
+    at node:internal/process/execution:75:19
+    at [eval]-wrapper:6:22
+    at evalScript (node:internal/process/execution:74:60) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 6072,
+  stdout: null,
+  stderr: null
+}
+
+Installing template dependencies using npm...
+npm WARN deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
+
+added 33 packages in 7s
+
+166 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1386 packages in 4s
+
+166 packages are looking for funding
+  run `npm fund` for details
+
+8 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Success! Created react-app at C:\react-app
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd react-app
+  npm start
+
+Happy hacking!
+
+C:\>dir
+ Volume in drive C is Windows
+ Volume Serial Number is AA95-9396
+
+ Directory of C:\
+
+23-06-2021  11:42             2,354 BugFix_License Version.txt
+07-12-2019  14:44    <DIR>          PerfLogs
+10-01-2022  14:26    <DIR>          Program Files
+23-06-2021  11:08    <DIR>          Program Files (x86)
+17-01-2022  11:10    <DIR>          react-app
+10-01-2022  14:25    <DIR>          Soft
+23-06-2021  11:25    <DIR>          Software
+23-06-2021  11:43    <DIR>          Users
+12-08-2021  09:24    <DIR>          Windows
+               1 File(s)          2,354 bytes
+               8 Dir(s)  243,776,950,272 bytes free
+
+C:\>cd react-app
+
+C:\react-app>dir
+ Volume in drive C is Windows
+ Volume Serial Number is AA95-9396
+
+ Directory of C:\react-app
+
+17-01-2022  11:10    <DIR>          .
+17-01-2022  11:10    <DIR>          ..
+17-01-2022  11:09               310 .gitignore
+17-01-2022  11:10    <DIR>          node_modules
+17-01-2022  11:10         1,102,526 package-lock.json
+17-01-2022  11:10               812 package.json
+17-01-2022  11:10    <DIR>          public
+17-01-2022  11:09             3,359 README.md
+17-01-2022  11:10    <DIR>          src
+               4 File(s)      1,107,007 bytes
+               5 Dir(s)  243,776,950,272 bytes free
+
+C:\react-app>npm start
+
+> react-app@0.1.0 start
+> react-scripts start
+
+(node:5656) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:5656) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+Compiled successfully!
+
+You can now view react-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.18.193:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+assets by path static/ 1.49 MiB
+  asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+  asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.88 KiB [emitted] 1 related asset
+  asset static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg 2.57 KiB [emitted] (auxiliary name: main)
+asset index.html 1.67 KiB [emitted]
+asset asset-manifest.json 546 bytes [emitted]
+runtime modules 31.3 KiB 15 modules
+modules by path ./node_modules/ 1.35 MiB 91 modules
+modules by path ./src/ 18 KiB
+  modules by path ./src/*.css 8.82 KiB
+    ./src/index.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css 1.37 KiB [built] [code generated]
+    ./src/App.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/App.css 2 KiB [built] [code generated]
+  modules by path ./src/*.js 5.56 KiB
+    ./src/index.js 1.75 KiB [built] [code generated]
+    ./src/App.js 2.45 KiB [built] [code generated]
+    ./src/reportWebVitals.js 1.37 KiB [built] [code generated]
+  ./src/logo.svg 3.61 KiB [built] [code generated]
+webpack 5.66.0 compiled successfully in 13457 ms
+
+npm install --force
+
+
+
